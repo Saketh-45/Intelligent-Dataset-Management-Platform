@@ -4,12 +4,6 @@
   <b>An Enterprise-Grade AI-Powered Platform for Dataset Quality Audit, Automated Cleaning, Neural Error Correction, and Executive Analytics.</b>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Saketh-45/Intelligent-Dataset-Management-Platform/stargazers"><img src="https://img.shields.io/github/stars/Saketh-45/Intelligent-Dataset-Management-Platform?style=for-the-badge&color=gold" alt="Stars"></a>
-  <a href="https://github.com/Saketh-45/Intelligent-Dataset-Management-Platform/network/members"><img src="https://img.shields.io/github/forks/Saketh-45/Intelligent-Dataset-Management-Platform?style=for-the-badge&color=blue" alt="Forks"></a>
-  <a href="https://github.com/Saketh-45/Intelligent-Dataset-Management-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"></a>
-</p>
-
 ---
 
 ## 📖 Table of Contents
@@ -23,7 +17,6 @@
   - [Frontend Installation](#2-frontend-setup)
 - [Environment Variables](#-environment-variables)
 - [API Reference](#-api-reference)
-- [License](#-license)
 
 ---
 
@@ -171,10 +164,6 @@ Create a `.env` file inside the `backend/` directory:
 | `/api/datasets/version/<id>/audit-log` | `GET` | Fetch transformation audit logs for a version |
 
 ---
-
-## 📜 License
-
-Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for more details.
 
 <p align="center">
   Made with ❤️ by <a href="https://github.com/Saketh-45">Saketh-45</a>
