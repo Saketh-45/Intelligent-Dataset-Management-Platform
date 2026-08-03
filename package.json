@@ -1,0 +1,14 @@
+{
+  "name": "intelligent-dataset-management-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enterprise AI-powered dataset error detection, automated cleaning, and analytics platform.",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run dev"
+  }
+}
