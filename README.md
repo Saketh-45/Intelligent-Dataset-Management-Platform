@@ -1,10 +1,6 @@
 # 🚀 Intelligent Dataset Management Platform
 
 <p align="center">
-  <img src="./system_architecture.png" alt="System Architecture" width="850"/>
-</p>
-
-<p align="center">
   <b>An Enterprise-Grade AI-Powered Platform for Dataset Quality Audit, Automated Cleaning, Neural Error Correction, and Executive Analytics.</b>
 </p>
 
@@ -12,7 +8,6 @@
   <a href="https://github.com/Saketh-45/Intelligent-Dataset-Management-Platform/stargazers"><img src="https://img.shields.io/github/stars/Saketh-45/Intelligent-Dataset-Management-Platform?style=for-the-badge&color=gold" alt="Stars"></a>
   <a href="https://github.com/Saketh-45/Intelligent-Dataset-Management-Platform/network/members"><img src="https://img.shields.io/github/forks/Saketh-45/Intelligent-Dataset-Management-Platform?style=for-the-badge&color=blue" alt="Forks"></a>
   <a href="https://github.com/Saketh-45/Intelligent-Dataset-Management-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"></a>
-  <a href="https://codesandbox.io/p/sandbox/github/Saketh-45/Intelligent-Dataset-Management-Platform"><img src="https://img.shields.io/badge/CodeSandbox-Open_In_Sandbox-black?style=for-the-badge&logo=codesandbox" alt="CodeSandbox"></a>
 </p>
 
 ---
@@ -28,7 +23,6 @@
   - [Frontend Installation](#2-frontend-setup)
 - [Environment Variables](#-environment-variables)
 - [API Reference](#-api-reference)
-- [CodeSandbox Preview](#-codesandbox-preview)
 - [License](#-license)
 
 ---
@@ -68,6 +62,10 @@ Powered by **Google Gemini 1.5 Flash**, **Cleanlab Confident Learning**, and **S
 ---
 
 ## 🏗️ System Architecture
+
+<p align="center">
+  <img src="./system_architecture.png" alt="System Architecture Diagram" width="850"/>
+</p>
 
 ```
 [ Frontend: React + Vite + Bootstrap ]
@@ -171,16 +169,6 @@ Create a `.env` file inside the `backend/` directory:
 | `/api/datasets/<id>/clean` | `POST` | Apply custom cleaning pipeline & create new version |
 | `/api/datasets/version/<id>/chat` | `POST` | Natural language advisory chat with Gemini AI |
 | `/api/datasets/version/<id>/audit-log` | `GET` | Fetch transformation audit logs for a version |
-
----
-
-## ☁️ CodeSandbox Preview
-
-You can open and preview this project directly in your browser via CodeSandbox:
-
-1. Click the button below:
-   [![Open in CodeSandbox](https://codesandbox.io/static/img/play-badge.svg)](https://codesandbox.io/p/sandbox/github/Saketh-45/Intelligent-Dataset-Management-Platform)
-2. The frontend workspace will automatically trigger `npm install` and start the Vite dev server on port `5173`.
 
 ---
 
